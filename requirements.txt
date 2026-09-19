@@ -1,0 +1,44 @@
+﻿# ============================================================
+# BOBO KIDS STUDIO — requirements.txt
+# Python 3.14.x — Pin exact versions for reproducibility
+# ============================================================
+# HOW TO READ THIS FILE:
+#   package==X.Y.Z  means "exactly this version" — safe, reproducible
+#   package>=X.Y.Z  means "this version or newer" — flexible but riskier
+#   We use == for all AI/ML packages, >= for stable utilities.
+#
+# INSTALL COMMAND (always use python -m pip, not just pip):
+#   python -m pip install -r requirements.txt
+# ============================================================
+
+# ── Phase 1: Foundation (install now) ───────────────────────
+python-dotenv==1.0.1         # Load .env secrets into os.environ
+loguru==0.7.3                # Better logging than stdlib logging
+requests==2.32.3             # HTTP calls (used by many stages)
+tqdm==4.67.1                 # Progress bars in terminal
+Pillow==12.3.0               # 11.x has no Python 3.14 wheel; 12.3.0 has cp314-win_amd64 wheel               # Image manipulation (thumbnail, puppet compositing)
+rich==13.9.4                 # Beautiful terminal output (tables, colors, panels)
+
+# ── Phase 3: Script generation (add when starting Phase 3) ──
+# google-generativeai==0.8.3
+
+# ── Phase 4: Voice synthesis (add when starting Phase 4) ────
+# kokoro==0.9.4
+# soundfile==0.12.1
+# numpy==2.2.1
+
+# ── Phase 7: Video assembly (add when starting Phase 7) ─────
+# moviepy==2.1.1
+# imageio==2.36.1
+# imageio-ffmpeg==0.5.1
+
+# ── Phase 11: Database (built into stdlib — no install needed)
+# sqlite3  # Already part of Python standard library
+
+# ── Phase 12: Dashboard (add when starting Phase 12) ────────
+# streamlit==1.41.1
+
+# ── Phase 13: YouTube API (add when starting Phase 13) ──────
+# google-api-python-client==2.157.0
+# google-auth-httplib2==0.2.0
+# google-auth-oauthlib==1.2.1

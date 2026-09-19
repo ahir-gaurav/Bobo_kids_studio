@@ -1,0 +1,43 @@
+{
+  "_comment": "BOBO the Bear — Lead Character. Full asset design happens in Phase 2.",
+  "name": "Bobo",
+  "species": "Bear cub",
+  "role": "lead",
+  "age_appearance": "4-5 years old (cub)",
+  "personality": [
+    "curious and enthusiastic",
+    "kind and encouraging",
+    "makes small mistakes and learns from them (relatable to target audience)",
+    "loves learning new things",
+    "uses simple, clear language"
+  ],
+  "appearance": {
+    "fur_color": "#8B5E3C",
+    "hoodie_color": "#1A5FBE",
+    "hoodie_letter": "B",
+    "backpack_color": "#F5C518",
+    "eye_color": "#1A1A1A",
+    "blush_color": "#E8927C",
+    "nose_color": "#3D1C02"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice_id": "af_heart",
+    "speed": 0.9,
+    "pitch_shift_semitones": 2,
+    "notes": "Slightly slower speed for child clarity. Pitch shifted up 2 semitones for a warmer, younger sound."
+  },
+  "sd_prompt": "cute bear cub character, blue hoodie with letter B, yellow backpack, friendly smile, children cartoon style, 3D render, bright colors, soft lighting, white background",
+  "sd_negative_prompt": "realistic, scary, dark, adult, human, violent, blurry, low quality, nsfw",
+  "asset_files": {
+    "body_front": "assets/body_front.png",
+    "body_side": "assets/body_side.png",
+    "face_happy": "assets/face_happy.png",
+    "face_surprised": "assets/face_surprised.png",
+    "face_thinking": "assets/face_thinking.png",
+    "face_sad": "assets/face_sad.png",
+    "arm_wave": "assets/arm_wave.png",
+    "arm_point": "assets/arm_point.png"
+  },
+  "status": "SKELETON — full assets to be created in Phase 2"
+}
