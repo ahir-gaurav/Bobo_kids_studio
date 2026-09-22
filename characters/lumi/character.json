@@ -1,0 +1,52 @@
+{
+  "_comment": "LUMI the Firefly \u2014 Best Friend character. Full asset design from Stitch reference in characters/lumi/reference/.",
+  "name": "Lumi",
+  "species": "Firefly",
+  "role": "best_friend",
+  "age_appearance": "3-4 years old (tiny and delicate)",
+  "personality": [
+    "bright and illuminating \u2014 always finds the positive",
+    "gentle and soft-spoken",
+    "curious about everything around her",
+    "loves helping others find their way",
+    "speaks slowly and clearly (great for toddler pacing)"
+  ],
+  "appearance": {
+    "wing_color": "#F5C518",
+    "dress_color": "#C8A2E8",
+    "dress_pattern": "white star spots",
+    "eye_color": "#1A9B8A",
+    "blush_color": "#E8927C",
+    "glow_color": "#FFF176",
+    "lantern_color": "#FFD54F",
+    "body_size": "very small, about half Bobo's height"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice_id": "af_heart",
+    "speed": 1.0,
+    "pitch_shift_semitones": 4,
+    "notes": "Higher pitch (+4 semitones) gives Lumi a sweet, airy, magical sound. Normal speed (1.0) \u2014 her natural gentleness comes from tone not pace."
+  },
+  "catchphrase": "I can light the way for you!",
+  "sd_prompt": "tiny glowing firefly girl character, golden translucent wings, big round teal eyes, rosy cheeks, lavender dress with white star pattern, holding a small glowing lantern, soft warm glow aura, children cartoon 3D style, Pixar render, bright soft lighting, sky blue background",
+  "sd_negative_prompt": "scary, dark, adult, realistic human, violent, sharp, ugly, low quality, nsfw",
+  "color_palette": {
+    "primary": "#F5C518",
+    "secondary": "#1A9B8A",
+    "tertiary": "#C8A2E8"
+  },
+  "stitch_screen_id": "9ffe150c87d04d8d8da2b76a6286fa11",
+  "stitch_project_id": "12851949774909607331",
+  "asset_files": {
+    "body_front": "assets/body_front.png",
+    "body_floating": "assets/body_floating.png",
+    "face_happy": "assets/face_happy.png",
+    "face_surprised": "assets/face_surprised.png",
+    "face_thinking": "assets/face_thinking.png",
+    "wings_open": "assets/wings_open.png",
+    "wings_closed": "assets/wings_closed.png",
+    "glow_overlay": "assets/glow_overlay.png"
+  },
+  "status": "DESIGNED \u2014 Stitch reference complete. ComfyUI assets to be built in Phase 5."
+}

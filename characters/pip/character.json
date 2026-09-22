@@ -1,0 +1,51 @@
+{
+  "_comment": "PIP the Penguin \u2014 Music Buddy character. Full asset design from Stitch reference in characters/pip/reference/.",
+  "name": "Pip",
+  "species": "Penguin",
+  "role": "music_buddy",
+  "age_appearance": "4-5 years old (chubby and round)",
+  "personality": [
+    "musical \u2014 turns everything into a song or a beat",
+    "funny and a little clumsy (kids love this)",
+    "brave despite being small",
+    "fiercely loyal to Bobo and Lumi",
+    "loves counting, numbers and rhythms"
+  ],
+  "appearance": {
+    "feather_color_body": "#1A1A1A",
+    "feather_color_belly": "#F5F5F5",
+    "bow_tie_color": "#D32F2F",
+    "feet_color": "#FF8F00",
+    "eye_color": "#1A1A1A",
+    "blush_color": "#E8927C",
+    "beak_color": "#FF8F00",
+    "body_size": "round and chubby, similar height to Bobo but much rounder"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice_id": "am_fenrir",
+    "speed": 1.05,
+    "pitch_shift_semitones": 1,
+    "notes": "Slightly faster speed (1.05x) for Pip's energetic personality. Pitch +1 semitone only \u2014 keeps him sounding jolly but not squeaky. Male voice model for variety against Bobo and Lumi."
+  },
+  "catchphrase": "One, two, three \u2014 let's sing with me!",
+  "sd_prompt": "chubby friendly penguin character, black and white feathers, bright red bow tie, orange feet, big round eyes, wide happy grin, small musical notes floating nearby, children cartoon 3D style, Pixar render, mint green background, bright cheerful lighting",
+  "sd_negative_prompt": "scary, dark, adult, realistic, violent, sharp, ugly, low quality, nsfw",
+  "color_palette": {
+    "primary": "#1A1A1A",
+    "secondary": "#D32F2F",
+    "tertiary": "#F5F5F5"
+  },
+  "stitch_screen_id": "pip_screen_generated",
+  "stitch_project_id": "12851949774909607331",
+  "asset_files": {
+    "body_front": "assets/body_front.png",
+    "body_dancing": "assets/body_dancing.png",
+    "face_happy": "assets/face_happy.png",
+    "face_singing": "assets/face_singing.png",
+    "face_thinking": "assets/face_thinking.png",
+    "face_surprised": "assets/face_surprised.png",
+    "arm_conducting": "assets/arm_conducting.png"
+  },
+  "status": "DESIGNED \u2014 Stitch reference complete. ComfyUI assets to be built in Phase 5."
+}

@@ -1,0 +1,112 @@
+{
+  "_comment": "BOBO KIDS STUDIO \u2014 Style Guide. Read by script_generator.py and image_generator.py.",
+  "channel": {
+    "name": "BOBO KIDS STUDIO",
+    "tagline": "Little Steps, Big Dreams",
+    "sub_tagline": "Learn, Play, Grow",
+    "target_age_min": 3,
+    "target_age_max": 5
+  },
+  "age_band_language_rules": {
+    "target_band": "3-5 years",
+    "max_words_per_sentence": 8,
+    "vocabulary": [
+      "Use concrete nouns (ball, apple, sun) over abstract ones",
+      "Avoid metaphors \u2014 children this age take language literally",
+      "Use present tense primarily ('Bobo finds' not 'Bobo found')",
+      "Repeat the key learning word at least 5 times per video",
+      "Include the child directly: 'Can YOU see the red apple?'"
+    ],
+    "sentence_examples": {
+      "good": ["Bobo sees a red apple.", "The apple is RED!", "Can you find the red one?"],
+      "bad": ["Bobo, overwhelmed by his discovery, gently reached out.", "Let us embark on a journey."]
+    },
+    "story_structure": {
+      "hook": "0:00\u20130:15 \u2014 Bobo asks the audience a question or shows something surprising",
+      "intro_song": "0:15\u20130:35 \u2014 Short catchy theme (4-8 bars, same every episode)",
+      "scene_1": "0:35\u20131:30 \u2014 Introduce the problem or concept",
+      "scene_2": "1:30\u20132:30 \u2014 Explore with a friend (Lumi or Pip joins)",
+      "scene_3": "2:30\u20133:30 \u2014 Try something, make a small mistake, learn",
+      "scene_4": "3:30\u20134:30 \u2014 Solve it! Celebrate with a song or chant",
+      "question": "4:30\u20134:45 \u2014 Ask the child to participate ('Now YOU try!')",
+      "outro": "4:45\u20135:00 \u2014 Bobo waves goodbye, teases next episode"
+    },
+    "engagement_hooks": [
+      "Ask the child a yes/no question every 60-90 seconds",
+      "Use child's name placeholder: 'Great job, little explorer!'",
+      "Pause 2 seconds after asking a question (let child answer)",
+      "Repeat the main lesson word in a sing-song way at the end"
+    ]
+  },
+  "visual_style": {
+    "overall_aesthetic": "Warm 3D cartoon, Pixar-adjacent but original",
+    "forbidden": [
+      "No dark or shadowy environments",
+      "No sudden loud noises or jump cuts",
+      "No scary faces, animals, or creatures",
+      "No realistic human faces",
+      "No brand logos or real-world product placement",
+      "No imitation of CoComelon, Baby Shark, Bluey, or any existing IP"
+    ],
+    "color_palette": {
+      "bg_warm": "#FFF9E8",
+      "bg_sky": "#E8F4FF",
+      "bg_nature": "#E8F5E9",
+      "bobo_blue": "#1A5FBE",
+      "sunshine_yellow": "#F5C518",
+      "bear_brown": "#8B5E3C",
+      "leaf_green": "#4CAF50",
+      "rosy_pink": "#E8927C",
+      "lumi_teal": "#1A9B8A",
+      "lumi_lavender": "#C8A2E8",
+      "pip_red": "#D32F2F"
+    },
+    "typography_on_screen": {
+      "headline_font": "Nunito Sans Bold",
+      "body_font": "Quicksand",
+      "label_font": "Comfortaa",
+      "minimum_size_px": 32,
+      "reason": "Must be readable on TV from 2m away by a 3-year-old"
+    },
+    "scene_format": {
+      "resolution": "1920x1080",
+      "fps": 30,
+      "background_style": "painted storybook illustration, soft gradients",
+      "character_style": "layered 2D puppet on 3D background",
+      "camera": "gentle slow zoom (Ken Burns effect) or soft horizontal pan",
+      "transition": "soft cross-fade, 0.5 seconds"
+    }
+  },
+  "music_style": {
+    "genre": "children\u0027s educational, upbeat but gentle",
+    "bpm_range": "80-110 BPM (not too fast \u2014 toddlers can\u0027t process rapid tempo)",
+    "instruments": "xylophone, glockenspiel, ukulele, soft piano, light percussion",
+    "forbidden": [
+      "Heavy bass drops",
+      "Electronic EDM or dubstep",
+      "Distorted guitar",
+      "Minor keys that sound sad or tense"
+    ],
+    "source": "YouTube Audio Library (primary) or Pixabay (with license proof)"
+  },
+  "content_rules": {
+    "topics_allowed": [
+      "ABC and letters", "Numbers and counting", "Colors", "Shapes",
+      "Animals and the sounds they make", "Good habits (brushing teeth, sharing, sleeping)",
+      "Kindness and emotions", "Simple science (rain, rainbows, seasons)",
+      "Bedtime stories", "Songs and rhymes"
+    ],
+    "topics_forbidden": [
+      "Violence or conflict", "Death or loss", "Fear-inducing scenarios",
+      "Adult relationships", "Religious or political content",
+      "Unsafe behaviors (running near roads, playing with fire)"
+    ],
+    "one_lesson_per_video": "Each video teaches exactly ONE concept. Not 'colors and shapes' \u2014 just 'red'.",
+    "no_near_duplicates": "Topic history checked via SQLite DB. Same topic not allowed within 30 videos."
+  },
+  "stitch_design_system": {
+    "project_id": "12851949774909607331",
+    "design_system_id": "assets/10693714332798920973",
+    "note": "Used for dashboard UI (Phase 12) and character reference cards."
+  }
+}
