@@ -1,4 +1,4 @@
-﻿# ============================================================
+# ============================================================
 # BOBO KIDS STUDIO — requirements.txt
 # Python 3.14.x — Pin exact versions for reproducibility
 # ============================================================
@@ -19,8 +19,8 @@ tqdm==4.67.1                 # Progress bars in terminal
 Pillow==12.3.0               # 11.x has no Python 3.14 wheel; 12.3.0 has cp314-win_amd64 wheel               # Image manipulation (thumbnail, puppet compositing)
 rich==13.9.4                 # Beautiful terminal output (tables, colors, panels)
 
-# ── Phase 3: Script generation (add when starting Phase 3) ──
-# google-generativeai==0.8.3
+# ── Phase 3: Script generation ───────────────────────────────
+google-generativeai==0.8.5
 
 # ── Phase 4: Voice synthesis (add when starting Phase 4) ────
 # kokoro==0.9.4
