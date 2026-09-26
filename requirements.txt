@@ -22,10 +22,17 @@ rich==13.9.4                 # Beautiful terminal output (tables, colors, panels
 # ── Phase 3: Script generation ───────────────────────────────
 google-generativeai==0.8.5
 
-# ── Phase 4: Voice synthesis (add when starting Phase 4) ────
-# kokoro==0.9.4
-# soundfile==0.12.1
-# numpy==2.2.1
+# ── Phase 4: Voice synthesis ────────────────────────────────
+kokoro-onnx==0.4.7           # Kokoro-82M ONNX (requires VC++ 2022 Redist + restart to activate)
+onnxruntime==1.24.1          # Pinned: 1.30.0 has unresolved DLL issues on Windows Store Python 3.14
+soundfile==0.14.0            # WAV file read/write
+numpy==2.5.3                 # Array ops for audio processing
+pyttsx3==2.99                # Windows SAPI5 fallback TTS (active until Kokoro DLL issue resolved)
+pypiwin32==223               # Windows COM interface needed by pyttsx3
+# NOTE: To activate Kokoro after VC++ 2022 install:
+#   1. Restart your PC (required for DLL registration)
+#   2. Run: python -m pipeline.voice_synthesizer 20260924_learn_colors_red --force-redo
+#   3. Kokoro will auto-select over SAPI
 
 # ── Phase 7: Video assembly (add when starting Phase 7) ─────
 # moviepy==2.1.1

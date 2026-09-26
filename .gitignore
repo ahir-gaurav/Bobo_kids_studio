@@ -45,3 +45,10 @@ desktop.ini
 .idea/
 *.suo
 *.user
+
+# -- AI model files (large binaries -- download separately)
+models/
+
+# -- Generated audio (WAV files are large, regenerate from script)
+audio/
+
