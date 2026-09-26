@@ -105,6 +105,8 @@ class Config:
         "fonts":       ROOT / "assets" / "fonts",
         "scripts":     ROOT / "scripts",
         "audio":       ROOT / "audio",
+        "scenes":      ROOT / "scenes",        # Phase 5: generated scene images
+        "thumbnails":  ROOT / "thumbnails",    # Phase 9: generated thumbnails
         "output":      ROOT / "output",
         "db":          ROOT / "db",
         "logs":        ROOT / "logs",
@@ -151,3 +153,4 @@ class Config:
 #   We create ONE cfg object here. Every other file imports this same object.
 #   This means the .env is only loaded once, and all settings are consistent.
 cfg = Config()
+

@@ -1,0 +1,97 @@
+{
+  "video_id": "20260924_learn_colors_red",
+  "engine": "PollinationsEngine",
+  "scene_count": 8,
+  "resolution": "1280x720",
+  "scenes_dir": "C:\\Users\\Gaurav\\OneDrive\\Desktop\\BkS\\scenes\\20260924_learn_colors_red",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Hook",
+      "file": "scene_01.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 15,
+      "visual_description": "Bobo the bear walks through a green grassy park. He sees a big bright red box under a tall green tree.",
+      "prompt_used": "Bobo the bear walks through a green grassy park. He sees a big bright red box under a tall green tree., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 2,
+      "title": "Intro Song",
+      "file": "scene_02.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 20,
+      "visual_description": "Bobo, Lumi, and Pip dance happily on a grassy hill while colorful letters spell BOBO KIDS STUDIO above them.",
+      "prompt_used": "Bobo, Lumi, and Pip dance happily on a grassy hill while colorful letters spell BOBO KIDS STUDIO above them., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 3,
+      "title": "A Red Apple",
+      "file": "scene_03.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 55,
+      "visual_description": "Bobo opens the surprise box gently. Inside sits a round, shiny red apple on a soft blue cloth.",
+      "prompt_used": "Bobo opens the surprise box gently. Inside sits a round, shiny red apple on a soft blue cloth., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 4,
+      "title": "Red Flowers",
+      "file": "scene_04.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 60,
+      "visual_description": "Lumi the firefly glows softly and flies over to a flower bed filled with bright red roses.",
+      "prompt_used": "Lumi the firefly glows softly and flies over to a flower bed filled with bright red roses., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 5,
+      "title": "The Floating Balloon",
+      "file": "scene_05.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 60,
+      "visual_description": "Pip waddles in holding a string attached to a round red balloon. The balloon slips from his flipper and floats to a tree branch.",
+      "prompt_used": "Pip waddles in holding a string attached to a round red balloon. The balloon slips from his flipper and floats to a tree branch., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 6,
+      "title": "Red Celebration",
+      "file": "scene_06.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 60,
+      "visual_description": "Bobo stretches high, grabs the balloon string, and safely hands it back to Pip. All three friends dance together.",
+      "prompt_used": "Bobo stretches high, grabs the balloon string, and safely hands it back to Pip. All three friends dance together., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 7,
+      "title": "Find the Red Item",
+      "file": "scene_07.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 15,
+      "visual_description": "Three fruits appear on a clean background: a yellow banana, a bright red strawberry, and a blue blueberry.",
+      "prompt_used": "Three fruits appear on a clean background: a yellow banana, a bright red strawberry, and a blue blueberry., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    },
+    {
+      "scene_number": 8,
+      "title": "Goodbye Friends",
+      "file": "scene_08.png",
+      "width": 1280,
+      "height": 720,
+      "duration_sec": 15,
+      "visual_description": "Bobo, Lumi, and Pip stand side-by-side, waving gently to the camera under a warm golden sun.",
+      "prompt_used": "Bobo, Lumi, and Pip stand side-by-side, waving gently to the camera under a warm golden sun., featuring Bobo the friendly brown bear cub wearing a blue hoodie with letter B, Lumi the glowing yellow firefly with soft warm wings, Pip the small yellow penguin with an orange beak and tiny flippers, children's cartoon illustration, flat design, vibrant saturated colors, simple rounded shapes, Pixar and Disney Junior inspired, clean background, warm friendly atmosphere, safe for children age 3 to 5, no text, no letters, no words, no scary elements, no photorealism",
+      "engine": "PollinationsEngine"
+    }
+  ]
+}
